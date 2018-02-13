@@ -1,0 +1,9 @@
+	<fvAp descr="" dn="uni/tn-NPNW/ap-FIRESIGHT" name="FIRESIGHT" nameAlias="" ownerKey="" ownerTag="" prio="unspecified">
+		<fvAEPg descr="" fwdCtrl="" isAttrBasedEPg="no" matchT="AtleastOne" name="FIRESIGHT" nameAlias="" pcEnfPref="unenforced" prefGrMemb="exclude" prio="unspecified">
+			<fvRsProv matchT="AtleastOne" prio="unspecified" tnVzBrCPName="ip"/>
+			<fvRsDomAtt classPref="encap" delimiter="" encap="unknown" encapMode="auto" epgCos="Cos0" epgCosPref="disabled" instrImedcy="lazy" netflowDir="both" netflowPref="disabled" primaryEncap="unknown" resImedcy="lazy" tDn="uni/vmmp-VMware/dom-ACI_NPNW_DATA_DVS"/>
+			<fvRsCons prio="unspecified" tnVzBrCPName="ip"/>
+			<fvRsCustQosPol tnQosCustomPolName=""/>
+			<fvRsBd tnFvBDName="BD_NPNW_APP_10_5_253_0"/>
+		</fvAEPg>
+	</fvAp>
