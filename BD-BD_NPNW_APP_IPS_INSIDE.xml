@@ -1,0 +1,6 @@
+	<fvBD OptimizeWanBandwidth="no" arpFlood="yes" descr="" dn="uni/tn-NPNW/BD-BD_NPNW_APP_IPS_INSIDE" epClear="no" epMoveDetectMode="" intersiteBumTrafficAllow="no" intersiteL2Stretch="no" ipLearning="yes" limitIpLearnToSubnets="no" llAddr="::" mac="00:22:BD:F8:19:FF" mcastAllow="no" multiDstPktAct="bd-flood" name="BD_NPNW_APP_IPS_INSIDE" nameAlias="" ownerKey="" ownerTag="" type="regular" unicastRoute="no" unkMacUcastAct="flood" unkMcastAct="flood" vmac="not-applicable">
+		<fvRsIgmpsn tnIgmpSnoopPolName=""/>
+		<fvRsCtx tnFvCtxName="NPHI"/>
+		<fvRsBdToEpRet resolveAct="resolve" tnFvEpRetPolName=""/>
+		<fvRsBDToNdP tnNdIfPolName=""/>
+	</fvBD>

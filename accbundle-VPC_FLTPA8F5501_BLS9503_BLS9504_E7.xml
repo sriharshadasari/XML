@@ -1,0 +1,22 @@
+	<infraAccBndlGrp descr="" dn="uni/infra/funcprof/accbundle-VPC_FLTPA8F5501_BLS9503_BLS9504_E7" lagT="node" name="VPC_FLTPA8F5501_BLS9503_BLS9504_E7" nameAlias="" ownerKey="" ownerTag="">
+		<infraRsStpIfPol tnStpIfPolName=""/>
+		<infraRsQosIngressDppIfPol tnQosDppPolName=""/>
+		<infraRsStormctrlIfPol tnStormctrlIfPolName=""/>
+		<infraRsQosEgressDppIfPol tnQosDppPolName=""/>
+		<infraRsMonIfInfraPol tnMonInfraPolName=""/>
+		<infraRsMcpIfPol tnMcpIfPolName=""/>
+		<infraRsMacsecIfPol tnMacsecIfPolName=""/>
+		<infraRsQosSdIfPol tnQosSdIfPolName=""/>
+		<infraRsAttEntP tDn="uni/infra/attentp-PHY_NPNW_AEP"/>
+		<infraRsCdpIfPol tnCdpIfPolName="CDP_DISABLED"/>
+		<infraRsL2IfPol tnL2IfPolName=""/>
+		<infraRsQosDppIfPol tnQosDppPolName=""/>
+		<infraRsCoppIfPol tnCoppIfPolName=""/>
+		<infraRsQosPfcIfPol tnQosPfcIfPolName=""/>
+		<infraRsHIfPol tnFabricHIfPolName="1G"/>
+		<infraRsL2PortSecurityPol tnL2PortSecurityPolName=""/>
+		<infraRsL2PortAuthPol tnL2PortAuthPolName=""/>
+		<infraRsLacpPol tnLacpLagPolName="LACP_ACTIVE"/>
+		<infraRsFcIfPol tnFcIfPolName=""/>
+		<infraRsLldpIfPol tnLldpIfPolName="LLDP_DISABLED"/>
+	</infraAccBndlGrp>

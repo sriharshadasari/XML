@@ -1,0 +1,7 @@
+	<vzBrCP descr="" dn="uni/tn-NPNW/brc-F5INSIDE_TO_NPNW_WEB_IPS_OUT" name="F5INSIDE_TO_NPNW_WEB_IPS_OUT" nameAlias="" ownerKey="" ownerTag="" prio="unspecified" scope="context" targetDscp="unspecified">
+		<vzSubj consMatchT="AtleastOne" descr="" name="WEB" nameAlias="" prio="unspecified" provMatchT="AtleastOne" revFltPorts="yes" targetDscp="unspecified">
+			<vzRsSubjFiltAtt directives="" tnVzFilterName="icmp"/>
+			<vzRsSubjFiltAtt directives="" tnVzFilterName="tcp_80"/>
+			<vzRsSubjFiltAtt directives="" tnVzFilterName="tcp_443"/>
+		</vzSubj>
+	</vzBrCP>

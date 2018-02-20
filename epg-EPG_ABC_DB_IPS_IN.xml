@@ -1,0 +1,7 @@
+	<fvAEPg descr="" dn="uni/tn-NPNW/ap-ABC/epg-EPG_ABC_DB_IPS_IN" floodOnEncap="disabled" fwdCtrl="" isAttrBasedEPg="no" matchT="AtleastOne" name="EPG_ABC_DB_IPS_IN" nameAlias="" pcEnfPref="unenforced" prefGrMemb="exclude" prio="unspecified">
+		<fvRsPathAtt descr="" encap="vlan-1511" instrImedcy="immediate" mode="regular" primaryEncap="unknown" tDn="topology/pod-1/protpaths-201-202/pathep-[VPC_FLTPA8I5501_BLS9503_BLS9504_E8]"/>
+		<fvRsDomAtt classPref="encap" delimiter="" encap="unknown" encapMode="auto" epgCos="Cos0" epgCosPref="disabled" instrImedcy="lazy" netflowDir="both" netflowPref="disabled" primaryEncap="unknown" primaryEncapInner="unknown" resImedcy="immediate" secondaryEncapInner="unknown" switchingMode="native" tDn="uni/phys-PHY_NPNW_DOM"/>
+		<fvRsCons prio="unspecified" tnVzBrCPName="ABC_DB_TO_ABC_IPS_IN"/>
+		<fvRsCustQosPol tnQosCustomPolName=""/>
+		<fvRsBd tnFvBDName="BD_NPNW_DB_IPS_INSIDE"/>
+	</fvAEPg>

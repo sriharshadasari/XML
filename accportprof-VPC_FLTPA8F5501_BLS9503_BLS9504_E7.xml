@@ -1,0 +1,6 @@
+	<infraAccPortP descr="" dn="uni/infra/accportprof-VPC_FLTPA8F5501_BLS9503_BLS9504_E7" name="VPC_FLTPA8F5501_BLS9503_BLS9504_E7" nameAlias="" ownerKey="" ownerTag="">
+		<infraHPortS descr="" name="E7" nameAlias="" ownerKey="" ownerTag="" type="range">
+			<infraRsAccBaseGrp fexId="101" tDn="uni/infra/funcprof/accbundle-VPC_FLTPA8F5501_BLS9503_BLS9504_E7"/>
+			<infraPortBlk descr="" fromCard="1" fromPort="7" name="block2" nameAlias="" toCard="1" toPort="7"/>
+		</infraHPortS>
+	</infraAccPortP>

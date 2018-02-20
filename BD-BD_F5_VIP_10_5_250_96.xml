@@ -1,0 +1,8 @@
+	<fvBD OptimizeWanBandwidth="no" arpFlood="yes" descr="" dn="uni/tn-NPNW/BD-BD_F5_INSIDE_10_5_250_96" epClear="no" epMoveDetectMode="" intersiteBumTrafficAllow="no" intersiteL2Stretch="no" ipLearning="yes" limitIpLearnToSubnets="yes" llAddr="::" mac="00:22:BD:F8:19:FF" mcastAllow="no" multiDstPktAct="bd-flood" name="BD_F5_INSIDE_10_5_250_96" nameAlias="" ownerKey="" ownerTag="" type="regular" unicastRoute="yes" unkMacUcastAct="flood" unkMcastAct="flood" vmac="not-applicable">
+		<fvSubnet ctrl="nd" descr="" ip="10.5.250.97/28" name="" nameAlias="" preferred="no" scope="public" virtual="no"/>
+		<fvRsIgmpsn tnIgmpSnoopPolName=""/>
+		<fvRsCtx tnFvCtxName="NPHI"/>
+		<fvRsBdToEpRet resolveAct="resolve" tnFvEpRetPolName=""/>
+		<fvRsBDToOut tnL3extOutName="L3_NPNW_NPHI_FLTPA8F5501"/>
+		<fvRsBDToNdP tnNdIfPolName=""/>
+	</fvBD>

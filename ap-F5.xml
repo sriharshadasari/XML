@@ -1,0 +1,15 @@
+    <fvAp descr="" dn="uni/tn-NPNW/ap-F5" name="F5" nameAlias="" ownerKey="" ownerTag="" prio="unspecified">
+		<fvAEPg descr="" fwdCtrl="" isAttrBasedEPg="no" matchT="AtleastOne" name="EPG_F5_OUT" nameAlias="" pcEnfPref="unenforced" prefGrMemb="exclude" prio="unspecified">
+			<fvRsProv matchT="AtleastOne" prio="unspecified" tnVzBrCPName="L3OUT_TO_F5"/>
+			<fvRsPathAtt descr="" encap="vlan-1500" instrImedcy="immediate" mode="regular" primaryEncap="unknown" tDn="topology/pod-1/protpaths-201-202/pathep-[VPC_FLTPA8L5501_OUTSIDE_LS9503_S9504_E5]"/>
+			<fvRsDomAtt classPref="encap" delimiter="" encap="unknown" encapMode="auto" epgCos="Cos0" epgCosPref="disabled" instrImedcy="lazy" netflowDir="both" netflowPref="disabled" primaryEncap="unknown" resImedcy="immediate" tDn="uni/phys-PHY_NPNW_DOM"/>
+			<fvRsCustQosPol tnQosCustomPolName=""/>
+			<fvRsBd tnFvBDName="BD_F5_VIP_10_5_250_64"/>
+		</fvAEPg>
+        <fvAEPg descr="" fwdCtrl="" isAttrBasedEPg="no" matchT="AtleastOne" name="EPG_F5_INSIDE" nameAlias="" pcEnfPref="unenforced" prefGrMemb="exclude" prio="unspecified">
+			<fvRsPathAtt descr="" encap="vlan-1505" instrImedcy="immediate" mode="regular" primaryEncap="unknown" tDn="topology/pod-1/protpaths-201-202/pathep-[VPC_FLTPA8L5501_INSIDE_LS9503_S9504_E6]"/>
+			<fvRsDomAtt classPref="encap" delimiter="" encap="unknown" encapMode="auto" epgCos="Cos0" epgCosPref="disabled" instrImedcy="lazy" netflowDir="both" netflowPref="disabled" primaryEncap="unknown" resImedcy="immediate" tDn="uni/phys-PHY_NPNW_DOM"/>
+			<fvRsCustQosPol tnQosCustomPolName=""/>
+			<fvRsBd tnFvBDName="BD_F5_INSIDE_10_5_250_96"/>
+		</fvAEPg>
+	</fvAp>
